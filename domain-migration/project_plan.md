@@ -42,7 +42,7 @@ Goal: Starting building field data service with close to real-time unverified ca
 
 6. If we are interested in bringing historical capture data into field db (from `trees` in main db), migrate those data using a temporary script. And do the same in the web-map consumer script to populate them.
 
-![milestone_1](./milestone_1.jpg)
+![milestone_1](./milestone_1.JPG)
 
 Deploy Order:
 1. Admin panel change with events for verification approval/rejection
@@ -94,7 +94,7 @@ Goal: Remove the writes to `trees` and `tree attributes` by field-data-service a
 
 2. Update admin panel to not update trees table on approval/rejection on verification.
 
-![milestone_4](./milestone_4.jpg)
+![milestone_4](./milestone_4.JPG)
 
 Deploy order:
 1. Deploy the admin panel change first.
