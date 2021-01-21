@@ -65,6 +65,10 @@ update the trees table as usual and then update field data service to mark the d
 
 5. Update token generation process and refer to ids from captures instead of trees as reference association. More details on this specific item to be determined.
 
+6. Wallet API service to emit events when transfer of tokens occur to be consumed by web-map layer for Impact owner view. The events consumed in web-map layer will trigger api calls to get the tokens impacted and update the capture view in the web-layer to assign the updated wallet owner.
+
+7. Trigger discussion about impact manager map (the view in web-map for planter orgs) in the web-map layer and its needs to shape and update milestone 3.
+
 ![milestone_2](milestone_2.jpg)
 
 Deploy order:
