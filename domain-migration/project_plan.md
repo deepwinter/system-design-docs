@@ -42,7 +42,7 @@ Goal: Starting building field data service with close to real-time unverified ca
 
 6. If we are interested in bringing historical capture data into field db (from `trees` in main db), migrate those data using a temporary script. And do the same in the web-map consumer script to populate them.
 
-![milestone_1](./milestone_1.jpg)
+![milestone_1](./milestone_1.JPG)
 
 Deploy Order:
 1. Admin panel change with events for verification approval/rejection
@@ -64,6 +64,10 @@ update the trees table as usual and then update field data service to mark the d
 4. Migrate data from `trees` table in main db to `captures` table in the new captures service of all approved tree entries.
 
 5. Update token generation process and refer to ids from captures instead of trees as reference association. More details on this specific item to be determined.
+
+6. Wallet API service to emit events when transfer of tokens occur to be consumed by web-map layer for Impact owner view. The events consumed in web-map layer will trigger api calls to get the tokens impacted and update the capture view in the web-layer to assign the updated wallet owner.
+
+7. Trigger discussion about impact manager map (the view in web-map for planter orgs) in the web-map layer and its needs to shape and update milestone 3.
 
 ![milestone_2](milestone_2.jpg)
 
@@ -94,7 +98,7 @@ Goal: Remove the writes to `trees` and `tree attributes` by field-data-service a
 
 2. Update admin panel to not update trees table on approval/rejection on verification.
 
-![milestone_4](./milestone_4.jpg)
+![milestone_4](./milestone_4.JPG)
 
 Deploy order:
 1. Deploy the admin panel change first.
