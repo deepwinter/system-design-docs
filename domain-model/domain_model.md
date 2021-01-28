@@ -13,6 +13,7 @@
     *   Aggregate Impact Asset: when a **_conservation entity_** has multiple** impact tokens** attached to it
     *   Fundamental Impact Asset: Synonym for **Impact Token**
 *   **Tree:** The main impact asset that Treetracker tracks.
+*   **Impact Producer:**: An organization that is coordinating physical responsibility for the growth of the tree.
 *   **Impact Manager**: An organization that is coordinating physical responsibility for the growth of the tree.
     *   Responsible for **Impact Manager Map**: her map with all the trees within her project (org map)
     *   **Impact Manager Map**: Permanently shows all **Trees** that an **Impact Manager** has or is coordinating.
